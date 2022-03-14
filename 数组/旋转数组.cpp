@@ -1,6 +1,4 @@
-/*
-给你一个数组，将数组中的元素向右轮转 k 个位置，其中 k 是非负数。
-*/
+
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -19,6 +17,7 @@ int main()
 
 void rotate1(int* nums, int numsSize, int k){
     //使用临时数组
+
     int *temp = (int*)malloc(numsSize*sizeof(int));
     for(int i=0;i<numsSize;i++)
     {
