@@ -1,8 +1,8 @@
 /*
  * @Author: proanimer
  * @Date: 2022-03-14 10:40:32
- * @LastEditTime: 2022-03-14 13:33:19
- * @LastEditors: proanimer
+ * @LastEditTime: 2022-03-14 22:32:45
+ * @LastEditors: proaniemr
  * @Description: 使用cpp的注意项
  */
 
@@ -32,7 +32,7 @@ int main()
     vector<vector<int>> dp; //二维数组
 
     int m = 12;
-    vector<vector<bool>> dp(m, vector<bool>(n, true));
+    vector<vector<bool> > dp(m, vector<bool>(n, true));
 
     //成员函数
     nums.empty(); //判断
